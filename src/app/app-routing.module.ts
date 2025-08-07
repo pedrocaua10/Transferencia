@@ -8,9 +8,9 @@ import { ComponentModalSuccessComponent } from './components/component-modal-suc
 const routes: Routes = [
   { path: '', redirectTo: '/money', pathMatch: 'full' },
   { path: 'money', component: ComponentMoneyComponent },
-  { path: 'cartao', component: ComponentModalComponent },
-  { path: 'confirmar', component: ComponentModalConfirmComponent },
-  { path: 'sucesso', component: ComponentModalSuccessComponent },
+  { path: '/cartao', component: ComponentModalComponent },
+  { path: '/confirmar', component: ComponentModalConfirmComponent },
+  { path: '/sucesso', component: ComponentModalSuccessComponent },
   { path: '**', redirectTo: '/money' }
 ];
 
